@@ -232,5 +232,5 @@ class ModelRunner(ModelLoader):
 if __name__ == '__main__':
     net_parameters = get_model_hyperparameters()
     model_runner = ModelRunner(net_parameters=net_parameters)
-    model, dl_train, dl_test = model_runner.train_model()
+    model_runner.train_model()
     # model, dl_train, dl_test = train_model(net_parameters)
